@@ -1,0 +1,9 @@
+References:
+
+1. Searched: "How to draw an ERD Diagram" 
+
+-> https://www.geeksforgeeks.org/sql/how-to-draw-entity-relationship-diagrams/?utm_source=chatgpt.com
+
+2. Searched: "How to build a model in Django"
+
+-> https://docs.djangoproject.com/en/6.0/topics/db/models/
