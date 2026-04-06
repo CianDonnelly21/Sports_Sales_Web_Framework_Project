@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Details</title>
+</head>
+<body style="font-family: Arial; background:#f5f5f5;">
+
+<h1>Order {{ order.id }}</h1>
+
+{% for p in purchases %}
+    <div style="border:1px solid black; padding:10px; margin:10px;">
+        <p>Item: {{ p.item_id.name }}</p>
+        <p>Quantity: {{ p.quantity }}</p>
+        <a href = "/orders/"> Back </a>
+    </div>
+{% endfor %}
+
+</body>
+</html>

@@ -16,7 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from SportsSalesShop import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('items/', views.item),
+    path('orders/', views.order),
+    path('buy/<int:item_id>/', views.buy_item),
+    path('order/<int:order_id>/', views.order_detail),
+    path('add_item/', views.add_item),
 ]
